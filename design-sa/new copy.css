@@ -17,6 +17,7 @@ h1{
 }
 img {
   border-radius: 50%;
+  
 }
 p{
 	color: white;
@@ -37,6 +38,16 @@ p{
 	background-position: center;
 	background-size: cover;
 	position: relative;
+}
+.wrapper img {
+	height: 100px;
+	width: 100px;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+.wrapper img:hover {
+	transform: scale(1.5);
+	
 }
 nav{
 	position: absolute;
